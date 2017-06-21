@@ -9,3 +9,8 @@ color = 'red';
 /*Enum Type*/
 enum Color {Red, Green, Blue}
 let c: Color = Color.Green;
+
+/*Any Type*/
+let notSure: any = 4;
+notSure = "maybe a string instead";
+notSure = false; // okay, definitely a boolean
