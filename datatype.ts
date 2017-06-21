@@ -20,3 +20,11 @@ x = [10, "hello"]; // Error
 enum Color {Red, Green, Blue}
 let c: Color = Color.Green;
 
+
+enum Color {Red = 1, Green, Blue}
+let c: Color = Color.Green;
+
+Or, even manually set all the values in the enum:
+
+enum Color {Red = 1, Green = 2, Blue = 4}
+let c: Color = Color.Green;
