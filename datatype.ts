@@ -15,3 +15,8 @@ let x: [string, number];
 x = ["hello", 10]; // OK
 // Initialize it incorrectly
 x = [10, "hello"]; // Error
+
+/*Enum Type*/
+enum Color {Red, Green, Blue}
+let c: Color = Color.Green;
+
