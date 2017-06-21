@@ -28,3 +28,13 @@ Or, even manually set all the values in the enum:
 
 enum Color {Red = 1, Green = 2, Blue = 4}
 let c: Color = Color.Green;
+
+
+/* Void Data Type */
+Void
+void is a little like the opposite of any: the absence of having any type at all. You may commonly see this as the return type of functions that do not return a value:
+
+function warnUser(): void {
+    alert("This is my warning message");
+}
+
